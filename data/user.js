@@ -2,9 +2,10 @@ export const user = {
     id: 0,
     personalInfo: {
       name: "Victor de Carli",
-      title:
-        "Full Stack Developer | React | Redux | Express | Typescript | Node.js | MongoDB",
+      job:'Fullstack Developer',
+      title:"Full Stack Developer | React | Redux | Express | Typescript | Node.js | MongoDB",
       location: "Brasil",
+      tel:'69992326914',
       email: "vonorvictor@gmail.com",
       linkedin: "https://www.linkedin.com/in/dev-victor",
       portfolio: "https://victordecarli.github.io/",
@@ -32,17 +33,15 @@ export const user = {
       ],
     },
 
-    experience: [
-      {
+  experience: {
         company: "Jão Delivery",
         role: "Desenvolvedor Full Stack Júnior",
         startDate: "2025-05-01",
-        endDate: "Present",
+        endDate: "Presente",
         location: "Cacoal, Rondônia, Brasil",
         description:
           "Atuo como desenvolvedor fullstack em projetos que usam a arquitetura MERN (MongoDB, Express.js, React.js, Node.js), com uma sólida base em frontend e em transição para uma atuação fullstack.",
-      },
-    ],
+    },
 
     contributions: [
       {
